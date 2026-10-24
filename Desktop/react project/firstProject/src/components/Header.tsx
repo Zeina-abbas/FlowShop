@@ -17,7 +17,7 @@ const Header = ({ id }: { id: string }) => {
 
     return (
         <div className="flex justify-between items-center py-4 px-10 bg-emerald-950 text-white fixed top-0 left-0 right-0 z-50">
-            <h1 className="text-2xl font-bold">Flow Shop</h1>
+            <h1 className="text-2xl font-bold">Shop Flow</h1>
             <div className="flex text-[14px] md:text-[18px]">
                 <a href="#" className="pr-3">Home</a>
                 <a href={`#${id}`}>Products</a>
